@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "917304749329",
+    "project_id": "dhangurunanak-34904",
+    "storage_bucket": "dhangurunanak-34904.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917304749329:android:78f4f2892195cc2afcb0b0",
+        "android_client_info": {
+          "package_name": "com.sagarmakhija1994.dgnadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ4M7H_Eoy4jFBtuvz42Sv83EZFDBkPF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917304749329:android:bc9f9774ef329c52fcb0b0",
+        "android_client_info": {
+          "package_name": "com.sagarmakhija1994.dhangurunanakulhasnagar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ4M7H_Eoy4jFBtuvz42Sv83EZFDBkPF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
