@@ -10,9 +10,11 @@ import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import com.sagarmakhija1994.dgnadmin.R
 import com.sagarmakhija1994.dgnadmin.databinding.ActivityHomeBinding
+import com.sagarmakhija1994.dgnadmin.ui.locationListActivity.LocationListActivity
 import com.sagarmakhija1994.dgnadmin.ui.login.LoginActivity
 import com.sagarmakhija1994.dgnadmin.ui.videos.KirtanVideosActivity
 import com.sagarmakhija1994.dgnadmin.util.AppLevelData
+import com.sagarmakhija1994.dgnadmin.util.enums.LocationListSelectionTypeEnum
 import com.sagarmakhija1994.dgnadmin.util.enums.VideoListSelectionTypeEnum
 
 class HomeActivity : AppCompatActivity() {
@@ -37,6 +39,19 @@ class HomeActivity : AppCompatActivity() {
 
         binding.btnHeaderImages.setOnClickListener {
             Toast.makeText(this,"Coming Soon...",Toast.LENGTH_LONG).show()
+        }
+
+        binding.btnDararList.setOnClickListener {
+            AppLevelData.locationSelectionListType = LocationListSelectionTypeEnum.DARBAR
+            startActivity(Intent(this, LocationListActivity::class.java))
+        }
+        binding.btnClinicList.setOnClickListener{
+            AppLevelData.locationSelectionListType = LocationListSelectionTypeEnum.CLINICS
+            startActivity(Intent(this, LocationListActivity::class.java))
+        }
+        binding.btnDharamshalaList.setOnClickListener{
+            AppLevelData.locationSelectionListType = LocationListSelectionTypeEnum.DHARAMSHALA
+            startActivity(Intent(this, LocationListActivity::class.java))
         }
     }
 }

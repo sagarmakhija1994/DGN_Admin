@@ -105,6 +105,110 @@
                     </LinearLayout>
 
                 </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2">
+                        <com.sagarmakhija1994.dgnadmin.util.squreview.SquareLinearWidth
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/shado_card_small"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:id="@+id/btnDararList">
+                            <ImageView
+                                android:layout_width="@dimen/_50sdp"
+                                android:layout_height="@dimen/_50sdp"
+                                android:src="@drawable/ic_darbar"
+                                android:layout_margin="@dimen/_10sdp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Darar"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_14sdp"/>
+                        </com.sagarmakhija1994.dgnadmin.util.squreview.SquareLinearWidth>
+
+                        <com.sagarmakhija1994.dgnadmin.util.squreview.SquareLinearWidth
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/shado_card_small"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:id="@+id/btnClinicList">
+                            <ImageView
+                                android:layout_width="@dimen/_50sdp"
+                                android:layout_height="@dimen/_50sdp"
+                                android:src="@drawable/ic_coming_soon_small"
+                                android:layout_margin="@dimen/_10sdp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Clinics"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_14sdp"/>
+                        </com.sagarmakhija1994.dgnadmin.util.squreview.SquareLinearWidth>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2">
+                        <com.sagarmakhija1994.dgnadmin.util.squreview.SquareLinearWidth
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/shado_card_small"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:id="@+id/btnDharamshalaList">
+                            <ImageView
+                                android:layout_width="@dimen/_50sdp"
+                                android:layout_height="@dimen/_50sdp"
+                                android:src="@drawable/ic_coming_soon_small"
+                                android:layout_margin="@dimen/_10sdp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Dharamshala"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_14sdp"/>
+                        </com.sagarmakhija1994.dgnadmin.util.squreview.SquareLinearWidth>
+
+                        <com.sagarmakhija1994.dgnadmin.util.squreview.SquareLinearWidth
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/shado_card_small"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:id="@+id/btnPrabhatferiRoute">
+                            <ImageView
+                                android:layout_width="@dimen/_50sdp"
+                                android:layout_height="@dimen/_50sdp"
+                                android:src="@drawable/ic_route"
+                                android:layout_margin="@dimen/_10sdp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Prabhatferi Route"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_14sdp"/>
+                        </com.sagarmakhija1994.dgnadmin.util.squreview.SquareLinearWidth>
+                    </LinearLayout>
+
+                </LinearLayout>
             </LinearLayout>
         </ScrollView>
     </LinearLayout>

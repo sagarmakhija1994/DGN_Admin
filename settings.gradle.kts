@@ -4,6 +4,7 @@ pluginManagement {
         mavenCentral()
         gradlePluginPortal()
         maven { url = uri("https://jitpack.io")}
+        jcenter()
     }
     plugins {
         id ("com.android.application") version "7.4.2"
@@ -18,6 +19,7 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         maven { url = uri("https://jitpack.io")}
+        jcenter()
     }
 }
 
