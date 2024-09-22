@@ -3,6 +3,7 @@ package com.sagarmakhija1994.dgnadmin.ui.login
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Toast
 import com.decos.saans.util.enums.LoginTypeEnum
@@ -44,16 +45,16 @@ class LoginActivity : AppCompatActivity() {
             clearUserPin()
         }
         binding.btnNumSet.setOnClickListener {
-            if(userPin.length==4){
-                if(AppLevelData.adminPin == userPin){
+//            if(userPin.length==4){
+//                if(AppLevelData.adminPin == userPin){
                     startActivity(Intent(this, HomeActivity::class.java))
                     finish()
-                }else{
-                    Toast.makeText(this,"Invalid Pin, Login Fail.", Toast.LENGTH_LONG).show()
-                }
-            }else{
-                Toast.makeText(this,"Please Enter 4 Digit Pin", Toast.LENGTH_LONG).show()
-            }
+//                }else{
+//                    Toast.makeText(this,"Invalid Pin, Login Fail.", Toast.LENGTH_LONG).show()
+//                }
+//            }else{
+//                Toast.makeText(this,"Please Enter 4 Digit Pin", Toast.LENGTH_LONG).show()
+//            }
         }
     }
 

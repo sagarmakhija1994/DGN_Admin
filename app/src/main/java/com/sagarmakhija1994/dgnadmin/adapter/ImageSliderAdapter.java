@@ -9,14 +9,16 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.sagarmakhija1994.dgnadmin.R;
+import com.sagarmakhija1994.dgnadmin.lib.autoimageslider.SliderViewAdapter;
 import com.sagarmakhija1994.dgnadmin.model.SliderDataModel;
-import com.smarteist.autoimageslider.SliderViewAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class ImageSliderAdapter extends
         SliderViewAdapter<ImageSliderAdapter.SliderAdapterVH> {
+
+    private Integer currentPosition = 0;
     private Context context;
     private List<SliderDataModel> mSliderDataModels = new ArrayList<>();
 
@@ -34,6 +36,10 @@ public class ImageSliderAdapter extends
         notifyDataSetChanged();
     }
 
+    public Integer getCurrentPosition() {
+        return currentPosition;
+    }
+
     public void addItem(SliderDataModel SliderDataModel) {
         this.mSliderDataModels.add(SliderDataModel);
         notifyDataSetChanged();
@@ -48,7 +54,7 @@ public class ImageSliderAdapter extends
 
     @Override
     public void onBindViewHolder(SliderAdapterVH viewHolder, final int position) {
-
+        currentPosition = position;
         SliderDataModel SliderDataModel = mSliderDataModels.get(position);
         String filePath = SliderDataModel.getFile().getPath();
         viewHolder.imageViewBackground.setImageBitmap(BitmapFactory.decodeFile(filePath));

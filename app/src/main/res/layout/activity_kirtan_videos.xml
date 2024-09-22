@@ -10,13 +10,17 @@
         android:layout_width="fill_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"/>
+
     <ImageView
+        android:id="@+id/btnAddVideo"
         android:layout_width="@dimen/_40sdp"
         android:layout_height="@dimen/_40sdp"
-        android:src="@drawable/ic_close"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_margin="@dimen/_10sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
         android:rotation="45"
-        android:id="@+id/btnAddVideo"/>
+        android:src="@drawable/ic_close" />
 </RelativeLayout>

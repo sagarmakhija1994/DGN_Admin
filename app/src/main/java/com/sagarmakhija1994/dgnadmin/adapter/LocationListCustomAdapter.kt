@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.storage.FirebaseStorage
 import com.sagarmakhija1994.dgnadmin.databinding.LayoutListItemLocationBinding
+import com.sagarmakhija1994.dgnadmin.model.LocationListItemDataModel
 import com.sagarmakhija1994.dgnadmin.model.SliderDataModel
 import java.io.File
 

@@ -120,7 +120,4 @@ dependencies {
 
     //Youtube Player
     implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0")
-
-    //sliding image lib
-    implementation("com.github.smarteist:autoimageslider:1.4.0")
 }

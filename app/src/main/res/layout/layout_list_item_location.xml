@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/shado_card_small"
             android:orientation="vertical">
-            <com.smarteist.autoimageslider.SliderView
+            <com.sagarmakhija1994.dgnadmin.lib.autoimageslider.SliderView
                 android:id="@+id/imageSlider"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_150sdp"
